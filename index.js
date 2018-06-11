@@ -20,6 +20,11 @@ function deleteFromObjectByKey(object, key) {
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
+<<<<<<< HEAD
   delete object[key]
+=======
+  object = object[key]
+  delete object.key
+>>>>>>> 603caacc9326bb25382ce6744128f16f017ac696
   return object
 }
